@@ -1,0 +1,4 @@
+# python3DGraphswithMatplotlib
+The most basic 3D plot is a line or scatter plot created from sets of (x,y,z) triples. In analogy with more common 2D plots, we can create these using the ax.plot3D and ax.scatterd3D functions. The call signature of these is nearly identical to that of their two-dimensional counterparts.
+Like two-dimensional ax.contour plots, ax.contour3D requires all the input data to be in the form of two-dimensional regular grids, with the z data evaluated at each point.
+Two other types of three-dimensional plots that work on gridded data are wireframes and surface plots. These take a grid of values and project it onto the specified three-dimensional surface, and can make the resulting three-dimensional forms quite easy to visualize. A surface plot is like a wireframe plot, but each face of the wireframe is a filled polygon
